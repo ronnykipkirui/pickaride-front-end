@@ -20,7 +20,7 @@ function TopBar() {
                 </ul>
             </div>
             <div className="topRight">
-                <img className="topImg" src="/public/asset/ava.jpeg" alt="icon"></img>
+                <img className="topImg" src="ava.jpeg" alt="icon"></img>
                 <i className="topsearch icon fa-solid fa-magnifying-glass"></i>
             </div>
 
