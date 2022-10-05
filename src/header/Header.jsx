@@ -9,9 +9,10 @@ export default function Header() {
          </div>
          <img
          className="headerimg"
-         src=""
+         src="pexels-david-besh-884788.jpg"
          alt=""
          ></img>
     </div>
   )
 }
+
