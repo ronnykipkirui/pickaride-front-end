@@ -28,8 +28,8 @@
  }
  .sidebarimg {
 margin-top: 15px;
-height: 100px;
-width: 100px;
+height: 200px;
+width: 200px;
  }
  .sidebarpara{
     margin-top: 30px;
@@ -40,6 +40,7 @@ width: 100px;
     margin-top: 30px;
  }
  .sidebarlistitem{
+    margin-bottom: 20px;
     display: inline-block;
     width: 50%;
     cursor: pointer;
@@ -52,8 +53,9 @@ width: 100px;
     justify-content: center;
  }
  .sidebaricon{
+    margin-top: 20px;
     font-size: 16px;
-    margin-left: 10px;
+    margin-left: 5px;
     cursor: pointer;
     display: flex;
  }

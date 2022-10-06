@@ -1,5 +1,5 @@
-import Post from "../post/Post"
-import SideBar from "../sidebar/SideBar"
+import Posts from "../../components/posts/Posts"
+import SideBar from "../../components/sidebar/SideBar"
 import "./home.css"
 
 export default function Home() {
@@ -8,7 +8,7 @@ export default function Home() {
     <>
        <div className="home">
       
-      <Post/>
+      <Posts/>
       <SideBar/>
     </div>
     </>
