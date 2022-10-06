@@ -11,12 +11,19 @@ export default function Setting() {
         <form className="settingform">
             <label>profile picture</label>
             <div className="settingpp">
-                <img src="ava.jpeg" alt="" />
+                <img src="pex.jpg" alt="" />
                 <label htmlFor="fileinput">
-                <i className="settingppicon fa-solid fa-user"></i>
+                <i className="settingicon fa-solid fa-user"></i>
                 </label>
                 <input type="file" id="fileinput" style={{display:"none"}}/>
             </div>
+            <label>Uaername</label>
+            <input type="text"  placeholder="Ronny"/>
+            <label>Email</label>
+            <input type="text"  placeholder="ronny@gmail.com"/>
+            <label>Password</label>
+            <input type="password"/>
+            <button className="settingssubmit">Update</button>
         </form>
       </div>
       <SideBar/>
