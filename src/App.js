@@ -1,5 +1,7 @@
-import Single from "./pages/single/Single";
+
 import TopBar from "./components/topbar/TopBar";
+import Setting from "./pages/settings/Setting";
+import Write from "./pages/write/Write";
 
 
 function App(){
@@ -7,7 +9,7 @@ function App(){
     <>
     <TopBar/>
 
-    <Single/>
+    <Setting/>
 
     </>
   )
