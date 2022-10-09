@@ -22,6 +22,7 @@ function App() {
   return (
     <BrowserRouter>
       <TopBar />
+  
       <Switch>
         <Route exact path="/">
           <Home />
@@ -33,10 +34,10 @@ function App() {
           {user ? <Home /> : <Login />}
         </Route>
         <Route path="/write">
-          {user ? <Write /> : <Register />}
+          {user ? <Write /> : <Write />}
         </Route>
         <Route path="/setting">
-          {user ? <Setting /> : <Register />}
+          {user ? <Setting /> : <Setting />}
         </Route>
         <Route path="/post/:postId">
           <Single />

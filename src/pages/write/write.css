@@ -3,7 +3,7 @@
 }
 .writeimg{
     margin-left: 150px;
-    width: 70vw;
+    width: 20vw;
     border-radius: 10px;
     object-fit: cover;
 }
@@ -35,7 +35,9 @@
     font-size: 30px;
     border: none;
     padding: 20px;
-    width: 70vw;
+    width: 50vw;
+    height: 20px;
+    background-color: ghostwhite;
 }
 .writeinput:focus{
  outline: none;
@@ -47,8 +49,8 @@
 }
 .writesubmit{
 position: absolute;
-top: 20px;
-right: 50px;
+top: 50px;
+right: 30px;
 padding: 10px;
 border: none;
 border-radius: 10px;
