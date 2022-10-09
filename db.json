@@ -1,0 +1,117 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "title": "music",
+      "tittle": "dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad cumque quibusdam neque del",
+      "author": "ronny",
+      "time": "1 hr ago"
+    },
+    {
+      "id": 2,
+      "title": "cinema",
+      "tittle": "dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad cumque quibusdam neque del",
+      "author": "ronny",
+      "time": "2 hr ago"
+    },
+    {
+      "id": 3,
+      "title": "tech",
+      "tittle": "dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad cumque quibusdam neque del",
+      "author": "ronny",
+      "time": "1 hr ago"
+    },
+    {
+      "id": 4,
+      "title": "life",
+      "tittle": "dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad cumque quibusdam neque del",
+      "author": "ronny",
+      "time": "3 hr ago"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "ronny",
+      "image": "avatar1.png",
+      "email": "ronny@gmail.com",
+      "password": "123123"
+    },
+    {
+      "id": "2",
+      "username": "bett",
+      "image": "avatar1.png",
+      "email": "betty@gmail.com",
+      "password": "123123"
+    },
+    {
+      "id": "3",
+      "username": "roni",
+      "image": "avatar1.png",
+      "email": "roni@gmail.com",
+      "password": "123123"
+    },
+    {
+      "id": "4",
+      "username": "ron",
+      "image": "avatar1.png",
+      "email": "ron@gmail.com",
+      "password": "123123"
+    },
+    {
+      "id": "5",
+      "username": "roy",
+      "image": "avatar1.png",
+      "email": "roy@gmail.com",
+      "password": "123123"
+    },
+    {
+      "username": "ronny",
+      "email": "ronny.bett@student.moringaschool.com",
+      "password": "1212",
+      "id": "RYMeCNM"
+    },
+    {
+      "username": "solomon",
+      "email": "solo@gmail.com",
+      "password": "1212",
+      "id": "YVpIFGS"
+    },
+    {
+      "username": "solomon",
+      "email": "solo@gmail.com",
+      "password": "1212",
+      "id": "_bSdA09"
+    },
+    {
+      "username": "vic",
+      "email": "vic@gmail.com",
+      "password": "1122",
+      "id": "MQS3D8v"
+    },
+    {
+      "username": "vic",
+      "email": "vic@gmail.com",
+      "password": "1122",
+      "id": "SEHrVvq"
+    },
+    {
+      "username": "vic",
+      "email": "vic@gmail.com",
+      "password": "1122",
+      "id": "9UbnUZt"
+    },
+    {
+      "username": "ronnybett",
+      "email": "solo@gmail.com",
+      "password": "1122",
+      "id": "xzHSg3h"
+    },
+    {
+      "username": "",
+      "email": "",
+      "password": "",
+      "id": "fcCRPDM"
+    }
+  ]
+}
