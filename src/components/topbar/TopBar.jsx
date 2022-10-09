@@ -8,9 +8,10 @@ export default function TopBar() {
 
 
             <div className="topLeft">
-                <i className="topicon fa-brands fa-facebook"></i>
+                <h1 className="topicon">My Blog Page </h1>
+                {/* <i className="topicon fa-brands fa-facebook"></i>
                 <i className="topicon fa-brands fa-twitter"></i>
-                <i className="topicon fa-brands fa-instagram"></i>
+                <i className="topicon fa-brands fa-instagram"></i> */}
             </div>
             <div className="topCenter">
                 <ul className="topList">
@@ -18,10 +19,10 @@ export default function TopBar() {
                         <Link className="link" to="/">Home</Link>
                     </li>
                     <li className="topListItem">
-                        <Link className="link" to="about">About</Link>
+                        <Link className="link" to="/">About</Link>
                     </li>
                     <li className="topListItem">
-                        <Link className="link" to="contact">Contacts</Link>
+                        <Link className="link" to="register">Contacts</Link>
                     </li>
                     <li className="topListItem">
                         <Link className="link" to="write">Write</Link>

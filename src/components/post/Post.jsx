@@ -1,9 +1,29 @@
+import { useEffect, useState } from "react"
 import "./post.css"
 
 export default function Post() {
+
+  const [blogs, setBlogs] = useState(null)
+
+  const handleDelete = (id) => {
+    const newBlogs = blogs.filter(blog => blog.id !== id)
+    setBlogs(newBlogs)
+  }
+  useEffect(() => {
+    fetch('http://localhost:8000/blogs')
+      .then(res => {
+        res.json()
+      })
+      .then(data => {
+      setBlogs(data)
+      })
+  },[])
+
+
+
   return (
-    <div className='post'> 
-       <img className="postimg"
+    <div className='post'>
+      <img className="postimg"
         src="pex1.jpg" alt=""
       />
       <div className="postinfo">
@@ -22,10 +42,7 @@ export default function Post() {
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad cumque quibusdam neque del
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad cumque quibusdam neque del
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad cumque quibusdam neque del
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad cumque quibusdam neque del
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad cumque quibusdam neque del
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad cumque quibusdam neque del
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad cumque quibusdam neque del
+
       </div>
     </div>
   )

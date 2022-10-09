@@ -4,12 +4,12 @@ export default function Header() {
   return (
     <div className="header ">
          <div className="headertittle">
-            <span className="headtittlesm">React & node</span>
-            <span className="headtittlelg">Blog</span>
+            <span className="headtittlelg"> 
+            Blog Page</span>
          </div>
          <img
          className="headerimg"
-         src="pex.jpg"
+         src="pex2.jpg"
          alt=""
          ></img>
     </div>
