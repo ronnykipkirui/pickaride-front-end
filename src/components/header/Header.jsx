@@ -9,7 +9,7 @@ export default function Header() {
          </div>
          <img
          className="headerimg"
-         src="pex1.jpg"
+         src="pex2.jpg"
          alt=""
          ></img>
     </div>

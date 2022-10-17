@@ -11,7 +11,7 @@ export default function Setting() {
         <form className="settingform">
             <label>profile picture</label>
             <div className="settingpp">
-                <img src="pex.jpg" alt="" />
+                <img src="ava.jpeg" alt="" />
                 <label htmlFor="fileinput">
                 <i className="settingicon fa-solid fa-user"></i>
                 </label>

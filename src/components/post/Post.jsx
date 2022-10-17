@@ -24,7 +24,7 @@ export default function Post() {
   return (
     <div className='post'>
       <img className="postimg"
-        src="pex2.jpg" alt=""
+        src="pex.jpg" alt=""
       />
       <div className="postinfo">
         <div className="postcats">

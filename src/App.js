@@ -22,9 +22,9 @@ function App() {
   return (
     <BrowserRouter>
       <TopBar />
-  
       <Switch>
         <Route exact path="/">
+          <Header/>
           <Home />
         </Route>
         <Route path="/register">

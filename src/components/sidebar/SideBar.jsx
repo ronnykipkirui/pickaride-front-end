@@ -6,7 +6,7 @@ export default function SideBar() {
             <div className="sidebaritem">
                 <span className="sidebartittle">ABOUT ME</span>
                 <img className="sidebarimg"
-                    src="pex2.jpg" alt=""></img>
+                    src="ava.jpeg" alt=""></img>
                 <p className="sidebarpara">Lorem ipsum dolor sit amet consectetur adipisicing elit. c
                     nulla iure! Laudantium vitae iure unde minus nihil dolore?</p>
             </div>

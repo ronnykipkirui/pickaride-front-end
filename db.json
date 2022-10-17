@@ -59,95 +59,10 @@
       "password": "123123"
     },
     {
-      "id": "5",
-      "username": "roy",
-      "image": "avatar1.png",
-      "email": "roy@gmail.com",
-      "password": "123123"
-    },
-    {
-      "username": "ronny",
-      "email": "ronny.bett@student.moringaschool.com",
-      "password": "1212",
-      "id": "RYMeCNM"
-    },
-    {
-      "username": "solomon",
-      "email": "solo@gmail.com",
-      "password": "1212",
-      "id": "YVpIFGS"
-    },
-    {
-      "username": "solomon",
-      "email": "solo@gmail.com",
-      "password": "1212",
-      "id": "_bSdA09"
-    },
-    {
-      "username": "vic",
-      "email": "vic@gmail.com",
-      "password": "1122",
-      "id": "MQS3D8v"
-    },
-    {
-      "username": "vic",
-      "email": "vic@gmail.com",
-      "password": "1122",
-      "id": "SEHrVvq"
-    },
-    {
-      "username": "vic",
-      "email": "vic@gmail.com",
-      "password": "1122",
-      "id": "9UbnUZt"
-    },
-    {
       "username": "ronnybett",
       "email": "solo@gmail.com",
-      "password": "1122",
-      "id": "xzHSg3h"
-    },
-    {
-      "username": "",
-      "email": "",
-      "password": "",
-      "id": "fcCRPDM"
-    },
-    {
-      "username": "",
-      "email": "",
-      "password": "",
-      "id": "wL-3BCd"
-    },
-    {
-      "username": "",
-      "email": "",
-      "password": "",
-      "id": "H8poUE7"
-    },
-    {
-      "username": "",
-      "email": "",
-      "password": "",
-      "id": "U-N522M"
-    },
-    {
-      "username": "",
-      "email": "",
-      "password": "",
-      "id": "9ysXNML"
-    },
-    {
-      "username": "",
-      "email": "",
-      "password": "",
-      "id": "EldEh5d"
-    },
-    {
-      "username": "",
-      "email": "",
-      "password": "",
-      "id": "_CpK8AD"
+      "password": "tt",
+      "id": "S04RKs2"
     }
   ]
 }
