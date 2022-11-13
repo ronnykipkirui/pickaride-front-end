@@ -9,11 +9,12 @@
     
 }
 .registertittle{
-    font-size: 50px;
+    font-size: 30px;
+    color: rgb(78, 73, 73);
 }
 
 .registerform{
-    margin-top: 20px;
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
 

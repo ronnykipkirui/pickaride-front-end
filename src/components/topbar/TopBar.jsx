@@ -1,60 +1,56 @@
-import "./topbar.css"
+import "./topbar.css";
 import { Link } from "react-router-dom";
 
 export default function TopBar() {
-    const user = false;
-    return (
-        <div className="top">
+//   const user = false;
+  return (
+    <div className="top">
+      <div className="topLeft">
+        <h1 className="topicon">PickaRide </h1>
+      </div>
+      <div className="topCenter">
+        <ul className="topList">
+          <li className="topListItem">
+            <Link className="link" to="/">
+              Home
+            </Link>
+          </li>
 
+          <li className="topListItem">
+            <Link className="link" to="about">
+              About
+            </Link>
+          </li>
+          <li className="topListItem">
+            <Link className="link" to="cars">
+              Cars
+            </Link>
+          </li>
+          <li className="topListItem">
+            <Link className="link" to="contact">
+              Contact us
+            </Link>
+          </li>
+          <li className="topListItem"></li>
+        </ul>
+      </div>
+      <div className="topRight">
+        <ul className="topList">
+          <li className="topListItem">
+            <Link className="link" to="/login">
+              Login
+            </Link>
+          </li>
 
-            <div className="topLeft">
-                <h1 className="topicon">My Blog Page </h1>
-                {/* <i className="topicon fa-brands fa-facebook"></i>
-                <i className="topicon fa-brands fa-twitter"></i>
-                <i className="topicon fa-brands fa-instagram"></i> */}
-            </div>
-            <div className="topCenter">
-                <ul className="topList">
-                    <li className="topListItem">
-                        <Link className="link" to="/">Home</Link>
-                    </li>
-                  
-                    <li className="topListItem">
-                        <Link className="link" to="setting">Setting</Link>
-                    </li>
-                    <li className="topListItem">
-                        <Link className="link" to="write">Write</Link>
-                    </li>
-                    <li className="topListItem">
-                        <Link className="link" to="sidenav">About</Link>
-                    </li>
-                    <li className="topListItem">
-                        {user && "Logout"}
-                    </li>
-                    
-                </ul>
-            </div>
-            <div className="topRight">
-                {
-                    user ? (
-                        <img className="topImg" src="ava.jpeg" alt="icon" />
-                    ) : (
-                        <ul className="topList">
-                            <li className="topListItem">
-                                <Link className="link" to="/login">Login</Link>
-                            </li>
+          <li className="topListItem">
+            <Link className="link" to="/Register">
+              Register
+            </Link>
+          </li>
+        </ul>
 
-                            <li className="topListItem">
-                                <Link className="link" to="/Register">Register</Link>
-                            </li>
-
-                        </ul>
-                    )
-                }
-
-                <i className="topsearch icon fa-solid fa-magnifying-glass"></i>
-            </div>
-
-        </div>
-    )
+        <i className="topsearch icon fa-solid fa-magnifying-glass"></i>
+      </div>
+    </div>
+  );
 }
