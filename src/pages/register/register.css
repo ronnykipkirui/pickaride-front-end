@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image: url("../../../public/login.jpeg");
+    background-color: rgb(200, 212, 223);
     background-size: cover;
     
 }
